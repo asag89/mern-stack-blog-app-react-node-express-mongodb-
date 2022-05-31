@@ -88,7 +88,7 @@ exports.updateUser = async (req, res) => {
 
         if (!req.body.id) {
             const updatedPost = await Post.find({ user: req.user.id })
-            const followingsPosts = await Promise.all(updatedPost.map((id) => {
+            await Promise.all(updatedPost.map((id) => {
                 return Post.findByIdAndUpdate(id, {
                     $set: req.body
                 }, {
