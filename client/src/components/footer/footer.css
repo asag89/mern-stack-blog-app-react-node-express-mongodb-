@@ -1,0 +1,27 @@
+
+.footer-container{
+    border-top: 0.5px solid rgb(219, 219, 219);
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+}
+
+.footer-item{
+    margin-right: 8px;
+    padding: 5px;
+    color: rgb(183, 183, 183);
+    font-size: .9rem;
+    cursor: pointer;
+}  
+
+.footer-item:hover{
+    color: rgb(155, 155, 155);
+} 
+
+
+/* media queries */
+@media(max-width: 992px){
+    .footer-container{
+        display: none;
+    }
+}

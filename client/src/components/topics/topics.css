@@ -1,0 +1,34 @@
+
+.topics-container{
+    margin-top: 40px;
+    margin-bottom: 60px;
+    width: 100%;
+
+}
+.topics-title{
+    color: #222;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.topics{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.topic{
+    padding: 10px 15px;
+    margin: 8px;
+    background-color: rgb(242, 242, 242);
+    border-radius: 30px;
+    text-align: center;
+    border: 0.5px solid rgb(219, 219, 219);
+    cursor: pointer;
+}
+
+.topic:hover{
+    background-color: rgb(225, 225, 225);
+}

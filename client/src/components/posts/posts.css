@@ -1,0 +1,15 @@
+
+.posts-container{
+    margin-bottom: 60px;
+    width: 100%;
+}
+
+.posts{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 40px;
+    width: 100%;
+    height: auto;
+}

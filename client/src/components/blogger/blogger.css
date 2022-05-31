@@ -1,0 +1,92 @@
+
+.blogger{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.blogger-top{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.blogger-username{
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.blogger-user-img-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.blogger-user-img{
+    width: 220px;
+    height:  220px;
+    object-fit: cover;
+    border-radius: 50% !important;
+    background-position: top !important;
+}
+
+.blogger-info{
+    width: 100%;
+}
+
+.blogger-user-bio{
+    font-size: 16px;
+    line-height: 1.6;
+    color: rgb(113, 112, 112) !important;
+    text-align: center;
+}
+
+.blogger-user-follow{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    color: rgb(138, 138, 138) !important;
+}
+
+.blogger-social-icons{
+    border-top: 0.5px solid #555;
+    border-bottom: 0.5px solid #555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.blogger-social-icons a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blogger-social-icon{
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+
+/* media queries */
+@media(max-width: 992px){
+    .blogger{
+        display: none;
+    }
+}
+
+

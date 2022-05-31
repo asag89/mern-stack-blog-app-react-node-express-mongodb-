@@ -1,0 +1,93 @@
+
+.register-container {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.4)), url("../../assets/register.jpg");
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-form{
+    width: 400px;
+    height: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.register-title{
+    margin-top: 40px;
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.input-grp{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.register-input{
+    width: 250px;
+    height: 35px;
+    padding: 20px 15px;
+    border: 1px solid #999;
+    border-radius: 10px;
+}
+
+.register-label{
+    padding-bottom: 5px;
+}
+
+.register-btn{
+    margin-top: 30px;
+    width: 250px;
+    height: 35px;
+    background-color: rgb(37, 96, 206);
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.register-btn:disabled{
+    background-color: rgb(178, 188, 208);
+    cursor: initial;
+}
+
+.return-btn{
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    font-size: 24px;
+}
+
+.register-f-password{
+    padding-top: 30px;
+    color: #666;
+    cursor: pointer;
+}
+
+.register-f-password:hover{
+    color: #111;
+    transition: 1s;
+}
+
+.register-to-login-page{
+    padding-top: 30px;
+    margin-bottom: 40px;
+}
+
+.register-to-login-page a{
+    color: rgb(7, 130, 206);
+    font-weight: 700;
+}
